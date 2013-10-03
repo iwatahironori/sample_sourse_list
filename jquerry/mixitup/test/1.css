@@ -1,0 +1,51 @@
+/* ------ BOILERPLATE TEMPLATE ------ */
+
+body{
+	font-family: Arial;
+}
+
+.controls{
+	display: inline-block;
+	width: 180px;
+	vertical-align: top;
+}
+
+.controls li{
+	cursor: pointer;
+	list-style-type: square;
+}
+
+.controls li.active{
+	font-weight: 700;
+}
+
+#Grid{
+	width: 640px;
+	text-align: justify;
+	font-size: 0.1px;
+}
+
+#Grid:after{
+	content: '';
+	display: inline-block;
+	width: 100%;
+}
+
+#Grid .mix{
+	display: none;
+	opacity: 0;
+	width: 100px;
+	height: 100px;
+	vertical-align: top;
+	background: #ccc;
+	color: #fff;
+	
+	font-size: 30px;
+	text-align: center;
+	line-height: 100px;
+}
+
+#Grid .gap{
+	display: inline-block;
+	width: 100px;
+}

@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+  <link rel="stylesheet" href="./1.css" />
+<script type="text/javascript" src="./1.js"></script>
+
+
+</head>
+<body>
+	<div class="controls">  
+  <h3>Filter Controls</h3>
+  <ul>
+    <li class="filter" data-filter="all">Show All</li>
+    <li class="filter" data-filter="category_1">Category 1</li>
+    <li class="filter" data-filter="category_2">Category 2</li>
+    <li class="filter" data-filter="category_3">Category 3</li>
+    <li class="filter" data-filter="category_3 category_1">Category 1 &amp; 3</li>
+  </ul>
+</div>
+
+<div class="controls">
+  <h3>Sort Controls</h3>
+  <ul>
+    <li class="sort" data-sort="data-cat" data-order="desc">Descending</li>
+    <li class="sort" data-sort="data-cat" data-order="asc">Ascending</li>
+    <li class="sort" data-sort="default" data-order="desc">Default</li>
+  </ul>
+</div>
+
+<hr/>
+
+<ul id="Grid">
+  <li class="mix category_1" data-cat="1">1</li>
+  <li class="mix category_3" data-cat="3">3</li>
+  <li class="mix category_2" data-cat="2">2</li>
+  <li class="mix category_3" data-cat="3">3</li>
+  <li class="mix category_2" data-cat="2">2</li>
+  <li class="mix category_1" data-cat="1">1</li>
+  <li class="gap"></li> <!-- "gap" elements fill in the gaps in justified grid -->
+</ul>
+
+
+
+
+
+</body>
+</html>
